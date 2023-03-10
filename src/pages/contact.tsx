@@ -1,7 +1,7 @@
 import { Background } from '../background/Background';
+import { ContactForm } from '../components/ContactForm';
 import { Meta } from '../layout/Meta';
 import { Section } from '../layout/Section';
-import { ContactForm } from '../templates/ContactForm';
 import { Footer } from '../templates/Footer';
 import { Menu } from '../templates/Menu';
 import { AppConfig } from '../utils/AppConfig';

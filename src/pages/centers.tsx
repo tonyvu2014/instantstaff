@@ -1,7 +1,7 @@
 import { Background } from '../background/Background';
+import { CentersForm } from '../components/CentersForm';
 import { Meta } from '../layout/Meta';
 import { Section } from '../layout/Section';
-import { CentersForm } from '../templates/CentersForm';
 import { Footer } from '../templates/Footer';
 import { Menu } from '../templates/Menu';
 import { AppConfig } from '../utils/AppConfig';

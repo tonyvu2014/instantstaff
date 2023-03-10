@@ -1,9 +1,9 @@
 import { Background } from '../background/Background';
+import { WorkersForm } from '../components/WorkersForm';
 import { Meta } from '../layout/Meta';
 import { Section } from '../layout/Section';
 import { Footer } from '../templates/Footer';
 import { Menu } from '../templates/Menu';
-import { WorkersForm } from '../templates/WorkersForm';
 import { AppConfig } from '../utils/AppConfig';
 
 const Workers = () => (
