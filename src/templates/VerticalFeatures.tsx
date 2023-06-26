@@ -5,12 +5,12 @@ import { Section } from '../layout/Section';
 
 const VerticalFeatures = () => (
   <Section
-    title="What is InstantStaff?"
-    description="InstantStaff is an innovative online marketplace that connects child and aged care centers with the best candidates for their casual jobs through real-time notifications. With InstantStaff, care centers can quickly fill their shifts with qualified staff in a matter of minutes, while workers can easily find and apply for the most suitable job opportunities."
+    title="What is SpaceShift?"
+    description="SpaceShift is an innovative online marketplace that connects child and aged care centers with the best candidates for their casual jobs through real-time notifications. With SpaceShift, care centers can quickly fill their shifts with qualified staff in a matter of minutes, while workers can easily find and apply for the most suitable job opportunities."
   >
     <VerticalFeatureRow
       title="Revolutionizing Child and Aged Care Staffing: The Advantages of Our Real-Time Marketplace"
-      description="With InstantStaff, finding reliable workers for your last-minute positions has never been easier. Say goodbye to the headache of staffing and hello to hassle-free hiring."
+      description="With SpaceShift, finding reliable workers for your last-minute positions has never been easier. Say goodbye to the headache of staffing and hello to hassle-free hiring."
       details={
         <Fragment>
           <p className="py-2">
@@ -24,9 +24,8 @@ const VerticalFeatures = () => (
           </p>
           <p className="py-2">
             <span className="font-bold">2.Real-time notifications:</span>{' '}
-            InstantStaff&apos;s real-time notifications can help child care and
-            aged care centers to quickly and easily find workers when they need
-            them.
+            ShiftHeo&apos;s real-time notifications can help child care and aged
+            care centers to quickly and easily find workers when they need them.
           </p>
           <p className="py-2">
             <span className="font-bold">3.Reduced administrative burden:</span>{' '}

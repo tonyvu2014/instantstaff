@@ -20,7 +20,7 @@ const Intro = () => {
         <Section yPadding="pt-20 pb-32">
           <div className="flex flex-col flex-wrap justify-between items-center">
             <h2 className="mb-8 text-2xl font-semibold">
-              Posting a job and applying for jobs with InstantStaff are easy
+              Posting a job and applying for jobs with SpaceShift are easy
             </h2>
             <div className="flex flex-row justify-center items-center">
               <table className="shadow-lg bg-white">

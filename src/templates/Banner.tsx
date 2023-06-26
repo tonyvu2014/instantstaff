@@ -7,7 +7,7 @@ import { Section } from '../layout/Section';
 const Banner = () => (
   <Section>
     <CTABanner
-      title="Join our community today and experience the benefits of InstantStaff."
+      title="Join our community today and experience the benefits of SpaceShift."
       subtitle="Let us help you find the right worker or the perfect job!"
       primaryButton={
         <Link href="/centers">
