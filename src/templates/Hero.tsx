@@ -17,10 +17,10 @@ const Hero = () => (
         title={
           <>
             {'On-demand staffing marketplace for\n'}
-            <span className="text-primary-500">Child Care and Aged Care</span>
+            <span className="text-primary-500">Child Care</span>
           </>
         }
-        description="Connecting child and aged care centers with qualified casual workers in real-time."
+        description="Connecting child care centers with qualified casual workers in real-time."
         primaryButton={
           <Link href="/centers">
             <a>
