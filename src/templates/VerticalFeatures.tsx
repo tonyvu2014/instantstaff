@@ -60,8 +60,8 @@ const VerticalFeatures = () => (
             shifts and apply for them instantly from their mobile devices.
           </p>
           <p className="py-2">
-            <span className="font-bold">4.Professional development:</span>Casual
-            workers can learn new skills and gain experience in different
+            <span className="font-bold">4.Professional development:</span>{' '}
+            Casual workers can learn new skills and gain experience in different
             aspects of child care through working in different centers.
           </p>
           <p className="py-2">
