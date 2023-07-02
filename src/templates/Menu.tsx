@@ -7,12 +7,12 @@ const Menu = () => (
   <NavbarTwoColumns logo={<Logo xl />}>
     <li>
       <Link href="/intro">
-        <a>How It Works</a>
+        <a className="text-primary-300">How It Works</a>
       </Link>
     </li>
     <li>
       <Link href="/contact">
-        <a>Contact Us</a>
+        <a className="text-primary-300">Contact Us</a>
       </Link>
     </li>
   </NavbarTwoColumns>

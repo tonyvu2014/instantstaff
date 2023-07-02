@@ -9,11 +9,12 @@ import { AppConfig } from '../utils/AppConfig';
 const Contact = () => (
   <div className="antialiased text-gray-600">
     <Meta title={AppConfig.title} description={AppConfig.description} />
-    <Background color="bg-gray-100">
+    <div className="sticky top-0 bg-primary-200">
       <Section yPadding="py-6">
         <Menu />
       </Section>
-
+    </div>
+    <Background color="bg-gray-100">
       <Section yPadding="pt-20 pb-32">
         <ContactForm />
       </Section>

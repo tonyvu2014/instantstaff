@@ -12,11 +12,12 @@ const Intro = () => {
   return (
     <div className="antialiased text-gray-600">
       <Meta title={AppConfig.title} description={AppConfig.description} />
-      <Background color="bg-gray-100">
+      <div className="sticky top-0 bg-primary-200">
         <Section yPadding="py-6">
           <Menu />
         </Section>
-
+      </div>
+      <Background color="bg-gray-100">
         <Section yPadding="pt-20 pb-32">
           <div className="flex flex-col flex-wrap justify-between items-center">
             <h2 className="mb-8 text-2xl font-semibold">
@@ -32,7 +33,7 @@ const Intro = () => {
                         src={`${router.basePath}/assets/images/employer.svg`}
                         alt="employer"
                       />
-                      <span>Employer</span>
+                      <span className="text-yellow-500">Employer</span>
                     </div>
                   </th>
                   <th className="bg-primary-300 border p-4">
@@ -42,7 +43,7 @@ const Intro = () => {
                         src={`${router.basePath}/assets/images/worker.svg`}
                         alt="worker"
                       />
-                      <span>Jobseeker</span>
+                      <span className="text-yellow-500">Jobseeker</span>
                     </div>
                   </th>
                 </tr>

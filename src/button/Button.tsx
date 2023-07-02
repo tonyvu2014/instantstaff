@@ -12,7 +12,7 @@ const Button = (props: IButtonProps) => {
     'btn-xl': props.xl,
     'btn-base': !props.xl,
     'btn-primary': props.primary,
-    'btn-gray': !props.primary,
+    'btn-yellow': !props.primary,
   });
 
   return (
@@ -34,19 +34,19 @@ const Button = (props: IButtonProps) => {
           }
 
           .btn-primary {
-            @apply text-white bg-primary-500;
+            @apply text-white bg-primary-700;
           }
 
           .btn-primary:hover {
-            @apply bg-primary-600;
+            @apply bg-primary-500;
           }
 
-          .btn-gray {
-            @apply text-white bg-gray-500;
+          .btn-yellow {
+            @apply text-white bg-yellow-600;
           }
 
-          .btn-gray:hover {
-            @apply bg-gray-600;
+          .btn-yellow:hover {
+            @apply bg-yellow-500;
           }
         `}
       </style>

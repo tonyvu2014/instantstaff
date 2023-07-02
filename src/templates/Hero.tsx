@@ -4,14 +4,9 @@ import { Background } from '../background/Background';
 import { Button } from '../button/Button';
 import { HeroButton } from '../hero/HeroButton';
 import { Section } from '../layout/Section';
-import { Menu } from './Menu';
 
 const Hero = () => (
   <Background color="bg-gray-100">
-    <Section yPadding="py-6">
-      <Menu />
-    </Section>
-
     <Section yPadding="pt-20 pb-32">
       <HeroButton
         title={
@@ -25,7 +20,7 @@ const Hero = () => (
           <Link href="/centers">
             <a>
               <Button xl primary>
-                For Care Centers
+                For Centers
               </Button>
             </a>
           </Link>
@@ -33,7 +28,7 @@ const Hero = () => (
         secondaryButton={
           <Link href="/workers">
             <a>
-              <Button xl>For Casual Workers</Button>
+              <Button xl>For Educators</Button>
             </a>
           </Link>
         }
