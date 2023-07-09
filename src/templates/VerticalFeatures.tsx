@@ -6,7 +6,7 @@ import { Section } from '../layout/Section';
 const VerticalFeatures = () => (
   <Section
     title="What is SpaceShift?"
-    description="SpaceShift is an innovative online platform that connects child care centers with the best candidates for their casual jobs through real-time notifications. With SpaceShift, care centers can quickly fill their shifts with qualified staff in a matter of minutes, while educators can easily find and apply for the most suitable job opportunities."
+    description="SpaceShift is an innovative online platform that connects child care centres with the best candidates for their casual jobs through real-time notifications. With SpaceShift, care centres can quickly fill their shifts with qualified staff in a matter of minutes, while educators can easily find and apply for the most suitable job opportunities."
   >
     <VerticalFeatureRow
       title="Revolutionizing Child Care Staffing: The Advantages of Our Real-Time Apps"
@@ -18,7 +18,7 @@ const VerticalFeatures = () => (
               1. Access to a larger pool of qualified educators:
             </span>{' '}
             <p>
-              By using our platform, child care centers can access a larger pool
+              By using our platform, child care centres can access a larger pool
               pool of qualified and vetted educators who are available for
               casual or part-time work. We&apos;ll do all the screening for you
               to save your time and resources needed for recruitment.
@@ -30,8 +30,7 @@ const VerticalFeatures = () => (
             </span>{' '}
             <p>
               SpaceShift&apos;s real-time notifications can help child care
-              centers centers to quickly and easily find educators when they
-              need them.
+              centres to quickly and easily find educators when they need them.
             </p>
           </p>
           <p className="py-3">
@@ -68,7 +67,7 @@ const VerticalFeatures = () => (
               2. Variety:
             </span>{' '}
             <p>
-              Our plaform provides access to a wide range of child care centers,
+              Our plaform provides access to a wide range of child care centres,
               allowing educators to gain experience in different environments.
             </p>
           </p>
@@ -89,7 +88,7 @@ const VerticalFeatures = () => (
             <p>
               Casual educators can learn new skills and gain experience in
               different aspects of child care through working in different
-              centers.
+              centres.
             </p>
           </p>
           <p className="py-3">
@@ -97,7 +96,7 @@ const VerticalFeatures = () => (
               5. Build connections:
             </span>{' '}
             <p>
-              By working in multiple centers, educators can network with
+              By working in multiple centres, educators can network with
               colleagues and potential employers, which can lead to future job
               opportunities.
             </p>
