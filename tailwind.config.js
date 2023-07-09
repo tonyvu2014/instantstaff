@@ -45,7 +45,7 @@ module.exports = {
         },
       },
       lineHeight: {
-        hero: '4rem',
+        hero: '3rem',
       },
       fontFamily: {
         sans: ['Poppins'],
