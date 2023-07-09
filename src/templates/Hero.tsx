@@ -11,11 +11,11 @@ const Hero = () => (
       <HeroButton
         title={
           <>
-            {'On-demand staffing marketplace for\n'}
+            {'On-demand staffing platform for\n'}
             <span className="text-primary-500">Child Care</span>
           </>
         }
-        description="Connecting child care centers with qualified casual workers in real-time."
+        description="Connecting child care centers with qualified casual educators in real-time."
         primaryButton={
           <Link href="/centers">
             <a>

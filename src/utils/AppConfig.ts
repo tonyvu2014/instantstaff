@@ -1,6 +1,6 @@
 export const AppConfig = {
   site_name: 'SpaceShift',
-  title: "One-Click Solution For Child Care's On-Demand Hiring",
-  description: "A marketplace for child care's casual workers",
+  title: "Fast and affordable childcare's casual hiring",
+  description: "A platform for child care's casual educators",
   locale: 'en',
 };
