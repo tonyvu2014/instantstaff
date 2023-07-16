@@ -9,7 +9,7 @@ import { AppConfig } from '../utils/AppConfig';
 const Workers = () => (
   <div className="antialiased text-gray-600">
     <Meta title={AppConfig.title} description={AppConfig.description} />
-    <div className="sticky top-0 bg-primary-200">
+    <div className="sticky top-0 bg-white">
       <Section yPadding="py-6">
         <Menu />
       </Section>
